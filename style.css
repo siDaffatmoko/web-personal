@@ -1,0 +1,135 @@
+*, html {margin: 0;
+padding: 0;}
+
+body {
+ background-color: white
+}
+.container-navbar {
+ background-color: rgb(205, 172, 102);
+ height: 15.7vh; 
+ width: 100%;
+ 
+}
+.ul-navbar {
+ height: 80px;
+ justify-content: center;
+ align-items: center;
+ display:flex 
+  
+ 
+}
+ /* display flex itu buat ngaripiin tabel ( fleeksibel  */
+.li-navbar {
+/* padding buat luas kotaknya, margin jarak antar kotak */
+ margin: 30px;
+ margin-top: 40px;
+ padding: 20px;
+ list-style-type:none;
+ color: aliceblue;
+ font-size: 30px;
+ 
+}
+
+.li-navbar:hover {
+    background-color:rgb(240, 195, 140)  ;
+    transition: .2s ease-in-out 
+    
+}
+
+.container-content {
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-content {
+    height: 60vh;
+    width:  40%;
+}
+
+.container-footer {
+    background-color: rgb(193, 94, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+  
+}
+
+.h1-footer {
+    font-size: 40px;
+}
+
+.Paragraf-about {
+    height: 14vh; 
+    width: 100%;
+    border : 5px solid white; 
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.content-image {
+    background-color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+.image-about {
+    height: 45vh
+}
+.image2-about {
+    height: 45vh;
+}
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.content-image2 {
+    background-color: white (227, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-contact {
+    height: 50%;
+    width: 10%;
+ 
+}
+
+.contact-phone {
+    font-size: 50px;
+}
+
+.image2-contact {
+    height: 90%;
+    width: 90%;
+    border-radius: 30px;
+    box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.55); 
+    box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.55);;
+ 
+}
+
+.contact-ig {
+
+    font-size: 55px;
+}
+
+.tombol-content {
+
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150;
+    width: 150;
+    border-radius: 30px;
+}
+
